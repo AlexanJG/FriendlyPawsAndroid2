@@ -25,7 +25,7 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     TextView tv_registrar;
-    EditText txtusuario,txtclave;
+    EditText txtusuario,txtclave, x;
     Button iniciar;
     String ruta;
     String usu, tipo,id_usu;
