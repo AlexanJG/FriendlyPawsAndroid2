@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FriendlyPaws</string>
+
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_mascota">MascotaActivity</string>
+    <string name="title_activity_veterinaria">VeterinariaActivity</string>
+    <string name="title_activity_reservas">ReservasActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+</resources>

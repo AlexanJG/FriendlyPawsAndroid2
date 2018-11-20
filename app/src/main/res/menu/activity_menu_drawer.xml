@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mascota"
+            android:icon="@drawable/ic_menu_mascota"
+            android:title="Mascotas" />
+        <item
+            android:id="@+id/nav_veterinaria"
+            android:icon="@drawable/ic_menu_veterinaria"
+            android:title="Buscar Veterinaria" />
+        <item
+            android:id="@+id/nav_reserva"
+            android:icon="@drawable/ic_menu_reserva"
+            android:title="Reserva de Citas" />
+        <item
+            android:id="@+id/nav_Perfil"
+            android:icon="@drawable/ic_menu_perfil"
+            android:title="Modficar Perfil" />
+        <item
+            android:id="@+id/nav_Cerrar"
+            android:icon="@drawable/ic_menu_salir"
+            android:title="Cerrar Sesion" />
+    </group>
+
+
+
+</menu>

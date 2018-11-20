@@ -1,0 +1,49 @@
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        tools:context="com.example.friendlypaws.friendlypaws.ReservasFragment">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Lista de Reservas"
+            android:text="Lista de Reservas"
+            android:textAlignment="center"
+            android:textColor="#F57C00"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Lista de Reservas" />
+
+        <TableLayout
+            android:id="@+id/tablaReserva"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="70sp"
+            android:visibility="visible">
+
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnNuevaReserva"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center_vertical|center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimaryLight"
+
+            android:text="Nueva Reserva"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@android:color/background_dark" />
+
+
+    </FrameLayout>
